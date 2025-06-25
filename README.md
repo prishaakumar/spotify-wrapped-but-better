@@ -1,5 +1,7 @@
 # 🎧 Spotify Wrapped, But Better
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-green?style=for-the-badge&logo=vercel)](https://spotify-wrapped-but-better.vercel.app)
+
 An interactive, modern web app that gives you **deeper, smarter, and more aesthetic insights** into your Spotify listening history—way beyond what Spotify Wrapped offers.
 
 Upload your own streaming data and unlock analytics, mood insights, personalized recommendations, and stunning visualizations, all in a responsive Spotify-themed UI.
@@ -137,4 +139,3 @@ Add more interactive visualisations.
 ## Contributions
 
 Contributions are welcome! Feel free to open an issue or submit a pull request
->>>>>>> 2bc2e6c39a33e6918e045e9fe8f461db1e017fa1
