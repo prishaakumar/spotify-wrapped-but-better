@@ -1,0 +1,8 @@
+flask
+flask-cors
+werkzeug
+python-dotenv
+pandas
+spotipy
+textblob
+requests 
