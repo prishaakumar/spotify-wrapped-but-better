@@ -1,0 +1,24 @@
+# Ignore dependency folders
+node_modules/
+backend/venv/
+
+# Ignore production builds
+build/
+frontend/build/
+
+# Ignore environment config
+.env
+backend/.env
+
+# macOS system file (safe to ignore)
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+*.log 

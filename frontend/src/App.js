@@ -37,6 +37,8 @@ import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, PointElement, LineElement, ArcElement, Title, Tooltip, Legend);
 
+const BASE_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5000';
+
 function App() {
     const [file, setFile] = useState(null);
     const [loading, setLoading] = useState(false);
@@ -66,7 +68,7 @@ function App() {
         const formData = new FormData();
         formData.append('file', file);
         try {
-            const response = await fetch('https://spotify-wrapped-but-better.onrender.com/upload', {
+            const response = await fetch(`${BASE_URL}/upload`, {
                 method: 'POST',
                 body: formData,
             });
